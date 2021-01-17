@@ -1,6 +1,6 @@
 # Run Docker build
-docker build -t angular-app:v1 .
-docker run -d -p 80:80 angular-app:v1
+- docker build -t angular-app:v1 .
+- docker run -d -p 80:80 angular-app:v1
 
 Docker will build all the artifacts from your app and then copy these artifacts in nginx server to launch your webapp.
 
